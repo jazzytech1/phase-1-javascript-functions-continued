@@ -36,7 +36,11 @@ function saturdayFun (fun='roller-skate') {
     return (`You are ${result}${adjective}${result}!`)
   }
 }
-  
+  function wrapAdjective (result='||'){
+  return function (adjective = "a dedicated programmer"){
+  return (`You are ${result}${adjective}${result}!`)
+  }
+  }
   
 
 
